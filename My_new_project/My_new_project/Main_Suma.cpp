@@ -1,4 +1,5 @@
 #include<iostream>
+#include"FileName.h"
 
 using namespace std;
 
@@ -17,6 +18,10 @@ int main()
 	cout << b;
 	cout << " = ";
 	cout << Summa(a, b) << endl;
+
+	int x = Max(a, b);
+
+	 Show (x);
 
 	return 0;
 }
